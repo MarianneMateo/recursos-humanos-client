@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const defaultImageSrc = "/img/user.png";
-const defaultStatus = "Inactivo";
+const defaultStatus = "activo";
 const initialFieldValues = {
 	employeeID: 0,
 	employeeName: "",
