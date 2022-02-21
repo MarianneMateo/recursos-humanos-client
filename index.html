@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title></title>
+		<script type="text/javascript">
+			// Mostrar y ocultar listado de planes de financiación
+var element = document.getElementById("oldNews");
+if(element != null){
+	element.style.display = "none";
+
+}
+var element = document.getElementById("old2");
+if(element != null){
+	element.style.display = "none";
+}
+
+function showHide(elementId) {
+	var element = document.getElementById(elementId);
+	if (element != null) {
+		if(element.style.display != "none"){
+			element.style.display = "none";
+		}else{
+			element.style.display = "block";
+		}
+	}
+}
+		</script>
+		<style type="text/css"></style>
+	</head>
+	<body>
+		<input href="#oldNews" type=button class="pull-right btn btn-primary" value="Mostrar tabla 1 / Ocultar tabla 1" onclick="showHide('oldNews')"></br>
+
+<span id="oldNews">Hola</span>
+	</body>
+</html>
